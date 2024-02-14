@@ -4,7 +4,9 @@ plugins {
 
 android {
     compileSdk 34
-
+    viewBinding {
+        enabled = true
+    }
     defaultConfig {
         applicationId "com.college.converter"
         minSdk 27
