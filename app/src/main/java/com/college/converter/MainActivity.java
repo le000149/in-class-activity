@@ -23,6 +23,19 @@ import android.util.Log;
 */
 
 public class MainActivity extends AppCompatActivity {
+
+    private LogWrapper logWrapper = new LogWrapper();
+
+    static class LogWrapper {
+        public void log(String tag, String message) {
+            Log.i(tag, message);
+        }
+    }
+
+    public void setLogWrapper(LogWrapper logWrapper) {
+        this.logWrapper = logWrapper;
+    }
+
     static private final Float CONVERSION_RATE = 0.80F;
 
     @Override
