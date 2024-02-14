@@ -23,6 +23,8 @@ import com.college.converter.databinding.ActivityMainBinding;
 */
 import android.util.Log;
 
+//,,,,,
+
 public class MainActivity extends AppCompatActivity {
     static private final Float CONVERSION_RATE = 0.80F;
     private ActivityMainBinding binding;
